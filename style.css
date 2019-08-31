@@ -1,5 +1,57 @@
-*{
-    display: flex;
+body{
+    
+    font-family: 'Caveat', cursive;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+.contianer
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0 20px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+header p{
+    font-size: 15px; 
+}
+
+.pads{
+   background: lightblue;
+   width: 100%;
+   display: flex;
+    
+}
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+.pad1{
+    background: #60d914;
+}
+.pad2{
+    background: #569dc7;
+}
+.pad3{
+    background: #c738a8;
+}
+.pad4{
+    background: #5d4edd;
+}
+.pad5{
+    background: #d0e941;
+}
+.pad6{
+    background: #df3434;
+}
+
